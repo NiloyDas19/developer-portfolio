@@ -215,6 +215,10 @@ main section{
     padding: 130px 230px;
 }
 
+.footer-item{
+    width: 50%;
+}
+
 
 .footer-title{
     color: #181818;
@@ -232,17 +236,12 @@ main section{
     margin-right: 24px;
 }
 
-.footer-form input{
+.footer-form input[type="text"] , input[type="email"] , textarea{
     display: block;
     margin-bottom: 24px;
     border-radius: 5px;
     border: 0;
     background: #FFF;
-    padding: 18px 300px 18px 30px;
-}
-
-.footer-form textarea{
-    padding: 18px 300px 134px 30px;
-    border: 0;
-    border-radius: 5px;
+    padding: 18px 30px;
+    width: 100%;
 }
