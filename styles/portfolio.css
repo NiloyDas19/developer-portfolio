@@ -169,6 +169,7 @@ main section{
 /* Resume section style */
 .resume-container{
     display: flex;
+    gap: 50px;
 }
 
 .resume-column-title{
@@ -195,4 +196,12 @@ main section{
     font-weight: 400;
 }
 
+.resume-container-line{
+    background:#D1D1D1;
+    max-width: 550px;
+}
 
+.download-cv{
+    margin-top: 50px;
+    text-align: center;
+}
